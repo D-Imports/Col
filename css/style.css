@@ -34,6 +34,9 @@ a {
     width: 100px;
     height: 30px;
 }
+.color{
+    color: #dc6c17;
+}
 
   @keyframes shake {
     0%, 100% {
