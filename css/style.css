@@ -30,6 +30,10 @@ a {
 
    
 }
+#pais{
+    width: 100px;
+    height: 30px;
+}
 
   @keyframes shake {
     0%, 100% {
@@ -93,7 +97,20 @@ a {
     
   }
 
+.principal{
+    width: 650px;
+    height: 400px;
+}
 
+@media (max-width: 768px) {
+ 
+
+    .principal{
+        width: 360px;
+        height: 300px;
+    }
+    
+  }
 /* Estilos para mostrar el botón cuando es visible */
 #boton-flotante.mostrar {
     opacity: 1; /* Mostrar el botón cuando es visible */
@@ -300,7 +317,7 @@ font-size: 40px;
   }
   #ahorroTo {
     color: #ffffff;
-    font-size: 1.1em;media
+    font-size: 1.1em;media;
     border-radius: 10px;
     background-color:#f04d02;
     padding: 1%;
@@ -309,6 +326,7 @@ font-size: 40px;
     margin-left: 100px;
     
   }
+ 
 
 @media (max-width: 768px) {
     #total-pagar {
@@ -376,7 +394,7 @@ font-size: 40px;
 .normal-slider .slick-prev,
 .normal-slider .slick-next {
     width: 40px;
-    height: 40px;
+    height: 50px;
     z-index: 1;
     opacity: 0;
     transition: .5s;
@@ -442,7 +460,7 @@ font-size: 40px;
 }
 
 .normal-slider .slick-dots li.slick-active button:before {
-    color: #d0562d;
+    color: #ffffff;
 }
 
 .slick-dotted.slick-slider {
@@ -758,11 +776,13 @@ border: 1px solid #000;
 /**********************************/
 .header {
     position: relative;
+    
 }
 
 .header .col-md-3,
 .header .col-md-6 {
     margin-bottom: 30px;
+
 }
 
 .header .navbar {
@@ -772,6 +792,7 @@ border: 1px solid #000;
     overflow: hidden;
     background: #ffffff !important;
 }
+
 
 .header .navbar-nav {
     width: 100%;
@@ -826,10 +847,18 @@ border: 1px solid #000;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 150, 97, 0.7);
+    background: rgba(225, 92, 25, 0.7);
     transition: all 0.3s;
     z-index: 1;
 }
+
+.vertical-title {
+    writing-mode: vertical-rl; /* Texto vertical de derecha a izquierda */
+    transform: rotate(180deg); /* Gira el texto 180 grados */
+    background-color: #c25c13;
+    color: #ffffff;
+    padding: 10px;
+  }
 
 .header-slider .header-slider-caption p {
     text-align: center;
