@@ -13,6 +13,9 @@ a {
     border-radius: 5px;
   
 }
+#compra{
+    color:#fffefe
+}
 #boton-flotante {
     position: fixed; /* Posición fija para que se mantenga en la pantalla mientras se desplaza */
     /* Distancia desde la parte inferior de la ventana */
