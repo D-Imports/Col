@@ -135,6 +135,7 @@ const showHTML = () => {
 		totalOfProducts += product.quantity;
 	});
 
-	valorTotal.innerText = `$${total.toFixed(3)}`;
+	valorTotal.innerText = `${total.toFixed(3)}`;
 	countProducts.innerText = totalOfProducts;
+	
 };
