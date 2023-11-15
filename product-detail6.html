@@ -24,24 +24,6 @@
         <link rel="stylesheet" href="css/styles.css" />
 
         <div class="container-icon">
-
-		<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '685905533277290');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=685905533277290&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
 				
 				
         </div>
@@ -49,10 +31,49 @@ src="https://www.facebook.com/tr?id=685905533277290&ev=PageView&noscript=1"
        
     </div>
 
-
     </head>
 
     <body>
+<!-- whatsapp-->
+
+<link rel="stylesheet" href="css/whats.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+ <link rel="stylesheet" href="css/whats2.css">
+<div class="nav-bottom">
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+            <div class="popup-whatsapp fadeIn">
+                <div class="content-whatsapp -top"><button type="button" class="closePopup">
+                      <i class="material-icons icon-font-color">close</i>
+                    </button> 
+                  
+                   <p>  <img src="img/icon2.png" width="35">  Hola, ¿en qué podemos ayudarte?  </p>
+                   
+                </div>
+                <div class="content-whatsapp -bottom">
+                  <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+                   
+                   
+                  
+          
+                    <button class="send-msPopup" id="send-btn" type="button">
+                        <i class="material-icons icon-font-color--black">send</i>
+                    </button>
+
+                </div>
+            </div>
+            <button type="button" id="whats-openPopup" class="whatsapp-button">
+                <div class="float" >
+  <i class="fab fa-whatsapp my-float"></i></div>
+            </button>
+            <div class="circle-anime"></div>
+        </div>
+
+
+
+
         <!-- Top bar Start -->
         <div class="container-items">
 
@@ -815,7 +836,7 @@ src="https://www.facebook.com/tr?id=685905533277290&ev=PageView&noscript=1"
         <!-- Footer Bottom End -->       
         
         <!-- Back to Top -->
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+      
         
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -926,5 +947,7 @@ stars.forEach((star, index) => {
                                 // Llama a la función de actualización inicial
                                 updateconteo();
                             </script>
+
+<script src="js/script2.js"></script>
     </body>
 </html>
